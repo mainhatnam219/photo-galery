@@ -1,0 +1,7 @@
+# Photo Gallery - Static Assets
+
+This folder contains static assets that will be served directly without processing.
+
+## Files
+
+- `vite.svg` - Application favicon/icon

@@ -1,0 +1,19 @@
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import PhotoList from './components/PhotoList';
+import PhotoDetail from './components/PhotoDetail';
+
+function App() {
+  return (
+    <Router>
+      <div className="min-h-screen bg-gray-50">
+        <Routes>
+          <Route path="/" element={<Navigate to="/photos" replace />} />
+          <Route path="/photos" element={<PhotoList />} />
+          <Route path="/photos/:id" element={<PhotoDetail />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
