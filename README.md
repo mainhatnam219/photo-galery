@@ -13,6 +13,7 @@ A modern, responsive React application that displays photos from the Lorem Picsu
 ### Installation
 
 1. Navigate to the project directory:
+For example: 
 ```bash
 cd "/Users/mainhatnam/Documents/2025 - 2026 FIT/Web Application/Week 8"
 ```
